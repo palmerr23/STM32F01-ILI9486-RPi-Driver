@@ -4,5 +4,6 @@ The interface is 16 bit serial, with 2 x 8 bit shift registers feeding a 16 bit 
 
 Most of the ones I have seen also have XPT2046 touch controllers, which share most of the SPI pins in the ususal way.
 
-minime found that the most uptodate SPI drivers are needed (10 March 2017). They were available at that time from, 
+minime found that the most uptodate SPI drivers are needed (10 March 2017). They were available at that time from 
+https://github.com/stevstrong/Arduino_STM32/tree/master/STM32F1/libraries/SPI
 and are most likely mainstream at a later date.
